@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #fff;
+  background: url("C:\Users\Dr. Dipankar Saha\Downloads\Portfolio_Surya\assets\image\nature.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+header {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 15px;
+  position: sticky;
+  top: 0;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  margin: 0 15px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover, .active {
+  color: #f4c542;
+}
+
+.hero {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-text h1 span {
+  color: #f4c542;
+}
+
+.btn {
+  background: #f4c542;
+  color: black;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #fff;
+  color: black;
+}
+
+.content {
+  padding: 50px;
+  background: rgba(0, 0, 0, 0.6);
+  margin: 30px auto;
+  width: 80%;
+  border-radius: 10px;
+}
